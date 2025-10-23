@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Prontuario.Domain.Entities
 {
-    public class Usuario
+    public class Usuario : Entity
     {
     }
 }
