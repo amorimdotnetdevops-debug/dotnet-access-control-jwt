@@ -1,0 +1,6 @@
+@Prontuario.WebApi_HostAddress = http://localhost:5014
+
+GET {{Prontuario.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

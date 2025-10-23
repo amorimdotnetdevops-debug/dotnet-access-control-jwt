@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Adapters/" />
+  <Folder Name="/Adapters/Infrastructure/">
+    <Project Path="Prontuario.Infra.Data/Prontuario.Infra.Data.csproj" Id="b0f2971f-b64a-4d48-82e2-028382d93716" />
+  </Folder>
+  <Folder Name="/Adapters/Presentation/">
+    <Project Path="Prontuario.WebApi/Prontuario.WebApi.csproj" />
+  </Folder>
+  <Folder Name="/Core/">
+    <Project Path="Prontuario.Application/Prontuario.Application.csproj" Id="cddc04c7-57b0-423b-a3f8-eebbcaea8ad5" />
+    <Project Path="Prontuario.Domain/Prontuario.Domain.csproj" Id="3798aae3-b97e-4e36-b520-72f8e0407ac2" />
+  </Folder>
+  <Folder Name="/Shared/" />
+  <Folder Name="/Tests/" />
+</Solution>
