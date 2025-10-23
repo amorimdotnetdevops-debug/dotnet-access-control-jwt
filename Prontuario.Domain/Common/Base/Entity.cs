@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prontuario.Domain.Entities
+namespace Prontuario.Domain.Common.Base
 {
     public abstract class Entity
     {
@@ -16,6 +16,16 @@ namespace Prontuario.Domain.Entities
         {
             Id = Guid.NewGuid();
             DataCriacao = DateTime.UtcNow;
+        }
+
+        protected void SetDataAtualizacao()
+        {
+            DataAtualizacao = DateTime.UtcNow;
+        }
+
+        protected Entity(Guid id)
+        {
+            Id = id;
         }
     }
 }
