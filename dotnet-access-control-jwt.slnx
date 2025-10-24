@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/Adapters/" />
   <Folder Name="/Adapters/Infrastructure/">
+    <Project Path="Prontuario.Infra.Auth/Prontuario.Infra.Auth.csproj" Id="ab9cef11-8cc4-4f98-8802-5171305391f4" />
     <Project Path="Prontuario.Infra.Data/Prontuario.Infra.Data.csproj" Id="b0f2971f-b64a-4d48-82e2-028382d93716" />
   </Folder>
   <Folder Name="/Adapters/Presentation/">
